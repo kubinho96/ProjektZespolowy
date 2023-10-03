@@ -2,4 +2,4 @@
 
 Temat: Jeszcze nie ma
 
-Osoby: Jakub Witkowski, Olivier Stefański, Jakub Krasnowski
+Osoby: Jakub Witkowski, Oliver Stefański, Jakub Krasnowski

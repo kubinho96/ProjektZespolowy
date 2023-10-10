@@ -1,5 +1,5 @@
 # ProjektZespolowy
 
-Temat: Jeszcze nie ma
+Temat: Serwis Internetowy z bazą danych filmów (filmweb) / Miasto 15 minutowe.
 
 Osoby: Jakub Witkowski, Oliver Stefański, Jakub Krasnowski

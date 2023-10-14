@@ -10,3 +10,12 @@ Wstepne założenia Miasta 15 minutowego:
 - wyświetlenie mapy wraz z miejscami(bankami, szkołami itd.) w obrebie 15 minut
 - możliwość wyboru kategorii szukanego miejsca np. same restauracje
 - mozliwość wyboru transportu typu. rower, pieszo
+
+# Użyte technologie:
+- UI/UX / Strona Internowa
+  - JavaScript / HTML / CSS
+  - React
+- Backend / API Mapy Google / Distance Matrix API / Places API
+  - Python / node.js? / Axios?
+- Baza Danych?
+  - PostgreSQL?

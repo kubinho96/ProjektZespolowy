@@ -1,3 +1,6 @@
+#Jestesmy zainteresowani mentoringiem :)
+
+
 # ProjektZespolowy
 
 Temat: Miasto 15 minutowe, ewentualnie Serwis Internetowy z bazą danych filmów (filmweb).
@@ -19,3 +22,8 @@ Wstepne założenia Miasta 15 minutowego:
   - Python / node.js? / Axios?
 - Baza Danych?
   - PostgreSQL?
+ 
+  #Diagramy:
+  - klas
+  - przypadków użycia
+  - wymagania funkcjonalne

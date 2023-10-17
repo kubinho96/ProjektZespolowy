@@ -1,4 +1,4 @@
-#Jestesmy zainteresowani mentoringiem :)
+# Jestesmy zainteresowani mentoringiem :)
 
 
 # ProjektZespolowy
@@ -23,7 +23,7 @@ Wstepne założenia Miasta 15 minutowego:
 - Baza Danych?
   - PostgreSQL?
  
-  #Diagramy:
+  # Diagramy:
   - klas
   - przypadków użycia
   - wymagania funkcjonalne

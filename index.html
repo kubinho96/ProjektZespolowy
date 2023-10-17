@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Miasto 15 min - Trojmiasto </title>
+    <meta charset="utf-8">
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+
+        #search-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        #addressInput {
+            width: 60%;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        #searchButton {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Miasto 15 min - Trójmiasto </h1>
+    <div id="search-container">
+        <input type="text" id="addressInput" placeholder="Enter an address">
+        <button id="searchButton" onclick="geocodeAddress()">Search</button>
+    </div>
+    <div id="map"></div>
+
+    <script>
+        var map;
+        var geocoder;
+
+        function initMap() {
+            // coordynaty Gdańska
+            var gdansk = { lat: 54.352025, lng: 18.646638 };
+
+            // wyposrodkowanie mapy na gdasnk
+            map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 13,
+                center: gdansk,
+            });
+
+            geocoder = new google.maps.Geocoder();
+        }
+
+        function geocodeAddress() {
+            var address = document.getElementById("addressInput").value;
+
+            geocoder.geocode({ address: address }, function (results, status) {
+                if (status === "OK") {
+                    map.setCenter(results[0].geometry.location);
+                    var marker = new google.maps.Marker({
+                        map: map,
+                        position: results[0].geometry.location,
+                    });
+                } else {
+                    alert("Geocode was not successful for the following reason: " + status);
+                }
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAT85kNnA3etuF6wtSX-FSuy9sYzl4YAY8&callback=initMap"
+        async defer></script>
+</body>
+
+</html>

@@ -29,4 +29,5 @@ Wstepne założenia Miasta 15 minutowego:
   # Diagramy:
   - klas
   - przypadków użycia
+  - przebiegu
   - wymagania funkcjonalne

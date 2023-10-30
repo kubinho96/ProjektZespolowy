@@ -18,10 +18,11 @@ Wstepne założenia Miasta 15 minutowego:
 - UI/UX / Strona Internowa
   - JavaScript / HTML / CSS
   - React
-- API Mapy Google / Distance Matrix API / Places API :
-  - https://developers.google.com/maps/documentation/maps-static?hl=pl
+- API Mapy Google / Distance Matrix API / Places API / Directions API :
+  - https://developers.google.com/maps/documentation/javascript?hl=pl
   - https://developers.google.com/maps/documentation/distance-matrix?hl=pl
   - https://developers.google.com/maps/documentation/places/web-service?hl=pl
+  - https://developers.google.com/maps/documentation/directions?hl=pl
  
   # Diagramy:
   - klas

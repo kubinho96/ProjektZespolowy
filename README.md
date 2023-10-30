@@ -22,9 +22,6 @@ Wstepne założenia Miasta 15 minutowego:
   - https://developers.google.com/maps/documentation/maps-static?hl=pl
   - https://developers.google.com/maps/documentation/distance-matrix?hl=pl
   - https://developers.google.com/maps/documentation/places/web-service?hl=pl
-- Python / node.js? / Axios?
-- Baza Danych?
-  - PostgreSQL?
  
   # Diagramy:
   - klas
